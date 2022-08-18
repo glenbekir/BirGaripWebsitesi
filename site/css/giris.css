@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../image/fightclub.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li a:hover{
+    
+    box-shadow: 0px 2px #888888;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.kayitFormu{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+.kayitFormu {
+    font-size: 65px;
+    justify-content: space-between;
+}
+input, button
+{
+    border-radius:5px;
+    border:none;
+    width:300px;
+    height:50px;
+    margin:20px 0px 20px 0px;
+    background:rgba(240, 240, 240, 0.852);
+    padding-left:15px;
+    font-style:italic;
+    
+}
+.btn{
+    background:#5c665650;
+    color:white;
+    }
+h3{
+    color:rgb(140, 113, 113);
+    text-transform:uppercase;
+    font-size:20px;
+    }
+            
